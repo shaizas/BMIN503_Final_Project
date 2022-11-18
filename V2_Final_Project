@@ -1,0 +1,42 @@
+---
+title: "BMIN503/EPID600 Project Template"
+author: "Your Name"
+output: 
+  html_document:
+    theme: paper 
+    highlight: tango
+---
+
+
+***
+Use this template to complete your project throughout the course. Your Final Project presentation will be based on the contents of this document. Replace the title/name above and text below with your own, but keep the headers. Feel free to change the theme and other display settings, but this is not required.
+
+### Overview
+Give a brief a description of your project and its goal(s), what data you are using to complete it, and what two faculty/staff in different fields you have spoken to about your project with a brief summary of what you learned from each person. Include a link to your final project GitHub repository.
+
+>>Title: Evaluating social determinants of individuals seeking prenatal care and consequent neonatal outcomes. 
+
+>This project will aim to assess how specific social determinants may pose as barriers to accessing  adequate prenatal care. 
+
+### Introduction 
+Describe the problem addressed, its significance, and some background to motivate the problem.
+
+Explain why your problem is interdisciplinary, what fields can contribute to its understanding, and incorporate background related to what you learned from meeting with faculty/staff.
+
+>Introduction: Comprehensive maternal care is critical for improving the health outcomes of birthing persons and neonatal wellbeing. However, social determinants may pose barriers to access to quality care (). Studies have shown that individuals seeking prenatal services before or in their early stages have significantly reduced health adversities for themselves and their children (). Parental services typically comprise general medical checkups, diet monitoring, blood tests, genetic screenings, and imaging testing. Services may also extend to social services such as domestic violence, avenues for financial support, and mental health resources. Low birth weight in a newborn is a standard measure of a successful and healthy pregnancy and can be critical for the child’s future well-being as well. This study will evaluate if certain social factors may hinder access to prenatal care and consequent neonatal outcomes. The United States currently underperforms in all medical practices compared to similarly developed nations, and maternal outcomes are, unfortunately, no different. It is critical as we move forward to ensure birthing persons are receiving the resources required for healthy pregnancies and, by extension, children to support the country's overall health. Providing quality prenatal services results in the reduction of many preventable diseases and debilitating morbidities. In this paper, we will evaluate how geography (specifically by county), race, age, and education levels may hinder prenatal visitations and, consequently, the child's birth weight. 
+
+### Methods
+Describe the data used and general methodological approach. Subsequently, incorporate full R code necessary to retrieve and clean data, and perform analysis. Be sure to include a description of code so that others (including your future self) can understand what you are doing and why. 
+
+>(I may cut out the neonatal evaluation and assess social factors on prenatal visitation numbers) 
+
+>Methods: This project will utilize data obtained by the Center for Disease Control’s WONDER, Natality Public Use Files to assess different demographic characteristics that may impact a birthing person’s access to prenatal services. Care provided before delivery has been shown to affect birthing weight, a key indicator of neonatal outcomes. In this analysis, the county of residence, race, age, and education levels of the birthing person (mother) will be aggregated to determine the visitation numbers of prenatal appointments of a mother and the consequent birth weight of the child post-delivery.
+
+>Question: Would a multiple logistics regression model be appropriate for analysis?
+>Dependent variable: birth weight
+>Independent: Prenatal visits 
+>Social factors: county of residence, race, age, and education levels. 
+
+
+### Results
+Describe your results and include relevant tables, plots, and code/comments used to obtain them. End with a brief conclusion of your findings related to the question you set out to address. You can include references if you'd like, but this is not required.
